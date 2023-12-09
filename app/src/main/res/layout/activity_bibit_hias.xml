@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bibit_hias"
+    android:background="@drawable/bibit_hias">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Mawar"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_mwr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Matahari"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_mthr"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Anggrek"
+            android:layout_marginTop="483dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_agg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Lavender"
+            android:layout_marginTop="623dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_lvnder"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bibit_sayur"
+    android:background="@drawable/bibit_sayur">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Tomat"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_tmt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Terong"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_trg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Cabe"
+            android:layout_marginTop="483dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_cabe"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bibit Brokoli"
+            android:layout_marginTop="623dp"
+            android:layout_marginLeft="170dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt_brokoli"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

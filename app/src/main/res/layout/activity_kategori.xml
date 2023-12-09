@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kategori"
+    android:background="@drawable/kategorii">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Buah-buahan"
+          android:layout_marginTop="410dp"
+          android:layout_marginLeft="53dp"
+          android:textSize="18dp"
+          android:textColor="@color/white"
+          android:id="@+id/buah"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sayuran"
+            android:layout_marginTop="625dp"
+            android:layout_marginLeft="73dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/sayuran"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanaman Hias"
+            android:layout_marginTop="410dp"
+            android:layout_marginLeft="250dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/hias"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanaman Obat"
+            android:layout_marginTop="625dp"
+            android:layout_marginLeft="248dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/txt_obat"/>
+    </RelativeLayout>
+
+</ScrollView>
