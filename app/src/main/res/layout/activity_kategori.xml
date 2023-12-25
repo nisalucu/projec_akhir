@@ -11,46 +11,57 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-
-      <TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Buah-buahan"
-          android:layout_marginTop="410dp"
-          android:layout_marginLeft="53dp"
-          android:textSize="18dp"
-          android:textColor="@color/white"
-          android:id="@+id/buah"/>
-
-        <TextView
+        <ImageView
+            android:id="@+id/prfl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sayuran"
-            android:layout_marginTop="625dp"
-            android:layout_marginLeft="73dp"
-            android:textSize="18dp"
-            android:textColor="@color/white"
-            android:id="@+id/sayuran"/>
+            android:src="@drawable/petani"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="310dp"/>
 
         <TextView
+            android:id="@+id/buah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tanaman Hias"
+            android:layout_marginLeft="48dp"
             android:layout_marginTop="410dp"
-            android:layout_marginLeft="250dp"
-            android:textSize="18dp"
+            android:text="Buah-buahan"
             android:textColor="@color/white"
-            android:id="@+id/hias"/>
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
 
         <TextView
+            android:id="@+id/sayuran"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tanaman Obat"
+            android:layout_marginLeft="68dp"
             android:layout_marginTop="625dp"
-            android:layout_marginLeft="248dp"
-            android:textSize="18dp"
+            android:text="Sayuran"
             android:textColor="@color/white"
-            android:id="@+id/txt_obat"/>
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/hias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="410dp"
+            android:text="Tanaman Hias"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/obat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="228dp"
+            android:layout_marginTop="625dp"
+            android:text="Tanaman Obat"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
     </RelativeLayout>
 
 </ScrollView>

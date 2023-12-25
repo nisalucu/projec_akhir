@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_psng"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bibitpisang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Pisang"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text2"
+           android:paddingLeft="20dp"
+           android:text="Tempat yang ideal untuk penanaman bibit pisang adalah daerah beriklim tropis dengan suhu antara 27-30 derajat Celsius. Pilih lokasi yang mendapat sinar matahari penuh atau naungan parsial, memiliki tanah yang kaya, subur, dan memiliki drainase yang baik. Pisang menyukai kelembaban, jadi pastikan ketersediaan air yang cukup. Hindari tempat yang terlalu terkena angin kencang. Dengan memperhatikan faktor-faktor ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit pisang yang optimal."
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text3"
+           android:layout_marginTop="20dp"
+           android:paddingLeft="20dp"
+           android:text="Cara Perawatan Bibit Pisang"
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           android:textStyle="bold"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text4"
+           android:paddingLeft="20dp"
+           android:text=" 1.  Media Tanam: Pastikan bibit ditanam dalam media tanam yang subur dan kaya akan bahan organik. Campurkan kompos atau pupuk kandang ke dalam tanah untuk memberikan nutrisi yang cukup."
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text5"
+           android:paddingLeft="20dp"
+           android:text=" 2.  Penyiraman dan Pemupukan: Bibit pisang membutuhkan penyiraman yang cukup, terutama pada musim kering. Pastikan tanah tetap lembab, namun hindari penumpukan air yang berlebihan yang dapat menyebabkan pembusukan akar."
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text6"
+           android:paddingLeft="20dp"
+           android:text=" 3.  Perlindungan dari Hama dan Penyakit: Pantau bibit pisang secara teratur untuk memeriksa tanda-tanda serangan hama atau penyakit. Penerapan pestisida organik atau tindakan pencegahan lainnya dapat membantu melindungi bibit."
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text8"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text7"
+           android:paddingLeft="20dp"
+           android:text="4.   Pengendalian Gulma: Bersihkan area sekitar bibit pisang dari gulma yang dapat bersaing dengan tanaman pisang untuk mendapatkan nutrisi dan air. Gulma juga dapat menjadi tempat persembunyian bagi hama dan penyakit. "
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text8"
+           android:paddingLeft="20dp"
+           android:text="5.   Pemindahan Bibit: Pindahkan bibit ke lokasi yang lebih luas atau ke tempat yang lebih cocok begitu bibit telah mencapai ukuran tertentu. Ini membantu bibit untuk mengembangkan sistem akar yang kuat dan siap untuk pertumbuhan lebih lanjut. "
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+       <TextView
+           android:id="@+id/text10"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/text9"
+           android:paddingLeft="20dp"
+           android:text=" 6.  Perhatian Terhadap Varietas:Beberapa varietas pisang mungkin memerlukan perawatan khusus. Pastikan untuk mengetahui jenis pisang yang Anda tanam dan berikan perawatan yang sesuai."
+           android:textColor="@color/black"
+           android:textSize="15dp"
+           tools:ignore="TextSizeCheck" />
+
+
+
+   </RelativeLayout>
+
+
+    </ScrollView>

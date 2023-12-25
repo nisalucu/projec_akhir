@@ -13,6 +13,66 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".editprofil"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_serei"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_buaya"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_jahe"
+            android:exported="false"
+            android:label="@string/title_activity_hlm_jahe"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".hlm_anggrek"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_mawar"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_lavender"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_matahari"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_brokoli"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_terong"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.hlm_terong"
+            android:exported="false"
+            android:label="@string/title_activity_hlm_terong" />
+        <activity
+            android:name=".hlm_cabe"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_tomat"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_pepaya"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_mangga"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_jeruk"
+            android:exported="false" />
+        <activity
+            android:name=".bibit_obat"
+            android:exported="false" />
+        <activity
+            android:name=".hlm_psng"
+            android:exported="false" />
+        <activity
             android:name=".bibit_sayur"
             android:exported="false" />
         <activity
@@ -38,7 +98,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"

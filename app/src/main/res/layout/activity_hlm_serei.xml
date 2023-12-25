@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_serei"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/bibitserai" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Serai"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:paddingLeft="20dp"
+            android:text=" Tempat yang ideal untuk penanaman bibit serai adalah area yang mendapat sinar matahari penuh atau naungan parsial. Pilih lokasi dengan tanah yang subur, kaya bahan organik, dan memiliki drainase yang baik. Pastikan terdapat cukup ruang antarbibit untuk pertumbuhan yang optimal. Serei juga menyukai kelembaban udara yang tinggi, sehingga perhatikan penyiraman yang cukup. Dengan memperhatikan faktor-faktor ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit serei yang sehat dan produktif."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Cara Perawatan Bibit Serai"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="1. Tanah dan Media Tanam: Pastikan bibit ditanam dalam tanah yang subur dan memiliki drainase yang baik. Serei juga dapat tumbuh dengan baik dalam pot menggunakan campuran tanah yang cocok."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="2. Penyiraman: Lakukan penyiraman secara teratur, menjaga tanah tetap lembab. Serei menyukai kelembaban, jadi pastikan untuk menyirami tanah ketika permukaannya terasa kering."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="3. Penyediaan Sinar Matahari: Tempatkan bibit serei di tempat yang mendapat sinar matahari penuh atau naungan sebagian. Pastikan ada akses cukup cahaya untuk mendukung pertumbuhan yang baik."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="4. Pemberian Pupuk: Berikan pupuk seimbang yang mengandung unsur-unsur seperti nitrogen, fosfor, dan kalium. Pupuk dapat diberikan secara teratur sesuai petunjuk kemasan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="5. Perlindungan dari Hama: Pantau bibit untuk tanda-tanda serangan hama. Jika diperlukan, gunakan metode organik atau pestisida yang aman untuk memerangi hama."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="6. Pemeliharaan Tanah: Jaga kebersihan di sekitar tanaman dengan menghilangkan gulma dan menjaga kebersihan tanah. Pemberian lapisan mulsa juga dapat membantu menjaga kelembaban dan mencegah pertumbuhan gulma."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text=" 7. Pemantauan Pertumbuhan: Amati pertumbuhan bibit secara berkala. Pemangkasan tunas yang tidak diinginkan atau daun yang mati dapat membantu menjaga keindahan dan kesehatan tanaman"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text11"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="8. Praktik Sanitasi: Selalu menjaga kebersihan dan kebersihan sekitar bibit serei. Ini membantu mencegah penyakit dan melindungi tanaman dari kondisi lingkungan yang tidak sehat."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

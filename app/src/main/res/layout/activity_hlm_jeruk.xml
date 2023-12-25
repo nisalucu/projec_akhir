@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_jeruk"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bibitjeruk"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Jeruk"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:paddingLeft="20dp"
+            android:text="Tempat yang ideal untuk penanaman bibit jeruk adalah area beriklim subtropis atau tropis dengan suhu antara 20-30 derajat Celsius. Pilih lokasi yang mendapat sinar matahari penuh, memiliki tanah yang subur dan berdrainase baik. Penting juga untuk melindungi bibit dari angin kencang dan memastikan ketersediaan air yang cukup. Sebaiknya, pilih varietas jeruk yang sesuai dengan kondisi iklim setempat. Dengan memperhatikan faktor-faktor ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit jeruk yang optimal."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:gravity="center_horizontal"
+            android:text="Cara Perawatan Bibit Jeruk"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text=" 1. Pemilihan Bibit: Pilih bibit jeruk yang berasal dari sumber yang terpercaya dan bebas dari penyakit"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="2. Media Tanam: Gunakan media tanam yang berkualitas dan memiliki drainase yang baik, seperti campuran tanah taman dengan pasir atau serbuk arang."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="3.   Penanaman: Jangan menanam terlalu dalam agar permukaan akar bisa mendapatkan cukup oksigen."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="4. Pemupukan dan penyiraman: Berikan pupuk yang seimbang dengan kandungan unsur hara seperti nitrogen, fosfor, dan kalium."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="5. Perlindungan dari Hama dan Penyakit: Inspeksi rutin tanaman untuk memeriksa adanya tanda-tanda hama atau penyakit."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="6. Pemangkasan: Lakukan pemangkasan untuk membentuk struktur tanaman yang baik dan menghapus cabang yang sakit atau mati."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="7.Pemantauan dan Adjustasi: Amati pertumbuhan dan kondisi bibit secara teratur, Sesuaikan perawatan sesuai dengan kebutuhan tanaman, terutama jika terjadi perubahan cuaca atau kondisi lingkungan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+    </RelativeLayout>
+    </ScrollView>

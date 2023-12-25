@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_anggrek"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/bibitanggrek"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Bunga Anggrek"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:paddingLeft="20dp"
+            android:text="Tempat yang ideal untuk penanaman bibit anggrek adalah lingkungan yang hangat dan lembap dengan sinar matahari yang difilter. Pilih tempat yang memberikan naungan teredam atau cahaya indirek, hindari paparan langsung sinar matahari yang berlebihan. Kelembaban udara yang tinggi menjadi faktor penting, sehingga penempatan dekat ventilasi atau area dengan kelembaban alami seperti dekat pepohonan atau kolam dapat bermanfaat. Selain itu, pastikan sirkulasi udara yang baik untuk mencegah pertumbuhan jamur. Dengan memperhatikan aspek-aspek ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit anggrek yang sehat."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Cara Perawatan Bibit Anggrek"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="1. Media Tanam yang Tepat: Gunakan media tanam yang cocok untuk jenis anggrek yang Anda tanam, seperti campuran serbuk kayu, serbuk kelapa, atau sphagnum moss. Pastikan media memiliki sifat drainase yang baik."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="2. Penyiraman yang Tepat: Atur penyiraman sesuai dengan jenis anggrek dan kondisi lingkungan. Sebagian besar anggrek menyukai kelembaban, tetapi terlalu banyak air dapat merugikan. Pastikan tidak ada genangan air di dalam pot."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="3. Penyediaan Sinar Matahari: Berikan sinar matahari yang cukup, namun hindari paparan langsung terhadap sinar matahari yang terlalu intens. Sebagian besar anggrek lebih suka naungan sebagian. "
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="4. Pemberian Pupuk:Pupuk anggrek dengan pupuk khusus untuk anggrek. Pupuk ini umumnya lebih rendah kadar garamnya dan dirancang untuk kebutuhan nutrisi anggrek."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="5. Sirkulasi Udara: Pastikan ada sirkulasi udara yang baik di sekitar anggrek. Hindari menempatkan anggrek di tempat yang terlalu lembap, yang dapat meningkatkan risiko infeksi jamur."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="6. Pemantauan terhadap Hama dan Penyakit: Perhatikan tanda-tanda serangan hama atau penyakit pada anggrek. Segera ambil tindakan jika ada masalah, seperti menggunakan insektisida organik atau fungisida yang aman."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="7. Pemeliharaan Kebersihan: Jaga kebersihan pot dan lingkungan sekitarnya. Hapus daun atau bunga yang sudah mati untuk mencegah pertumbuhan jamur dan menjaga kebersihan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text11"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="8. Pemeliharaan Kelembaban:Jaga kelembaban udara di sekitar anggrek, terutama jika lingkungan cenderung kering. Anda dapat menggunakan penghumidifikasi atau menempatkan wadah air di dekat anggrek."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

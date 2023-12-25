@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_kunyit"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/bibitkunyit"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Kunyit"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:paddingLeft="20dp"
+            android:text=" Tempat yang ideal untuk penanaman bibit kunyit adalah daerah dengan iklim tropis atau subtropis. Pilih lokasi yang mendapat sinar matahari sepanjang hari atau naungan parsial. Tanah yang cocok adalah tanah berdrainase baik, kaya bahan organik, dan memiliki pH netral hingga sedikit asam. Pastikan juga ada ketersediaan air yang cukup, dan hindari genangan air. Dengan memperhatikan faktor-faktor ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit kunyit yang optimal."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Cara Perawatan Bibit Kunyit"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="1. Penanaman: Tanamlah bibit kunyit pada kedalaman yang tepat, dengan bibit tertanam sekitar 5-7 cm di bawah permukaan tanah. Pastikan tanah memiliki drainase yang baik dan tidak menggenang air."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="2. Penyiraman dan pemupukan: Kunyit menyukai kelembaban tanah yang konsisten. Lakukan penyiraman secara teratur, tetapi hindari genangan air. Pastikan tanah tetap lembab, terutama selama fase pertumbuhan awal dan Berikan pupuk organik atau pupuk seimbang secara berkala untuk mendukung pertumbuhan tanaman."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="3. Penyediaan Sinar Matahari:Letakkan bibit kunyit di tempat yang mendapat sinar matahari penuh atau naungan sebagian. Kunyit dapat tumbuh baik di bawah naungan pohon atau tanaman lain."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="4. Pemangkasan Tunas:Pemangkasan tunas yang tidak diperlukan dapat membantu memfokuskan energi tanaman pada pertumbuhan rimpang. Pemangkasan juga membantu menghilangkan tunas yang lemah atau tidak sehat."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="5. Pemantauan Terhadap Hama dan Penyakit: Amati bibit kunyit secara rutin untuk tanda-tanda serangan hama atau penyakit. Terapkan langkah-langkah pengendalian hama organik jika diperlukan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="6. Perlindungan dari Angin Kencang: Sediakan perlindungan dari angin kencang, terutama selama fase pertumbuhan awal. Angin kencang dapat merusak daun dan memengaruhi pertumbuhan tanaman."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Pemeliharaan Tanah: Jaga kebersihan tanah di sekitar bibit kunyit dengan memberikan lapisan mulsa. Ini membantu menjaga kelembaban, mengurangi pertumbuhan gulma, dan memberikan nutrisi tambahan"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

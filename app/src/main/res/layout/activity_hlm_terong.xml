@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_terong"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/bibitterong" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Terong"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:paddingLeft="20dp"
+            android:text="Tempat yang ideal untuk penanaman bibit terong adalah area yang mendapat sinar matahari penuh selama 6-8 jam sehari. Pilih lokasi dengan tanah yang subur, memiliki drainase baik, dan ketersediaan air yang cukup. Hindari tempat yang sering terkena angin kencang. Dengan memperhatikan faktor-faktor ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit terong yang optimal."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Cara Perawatan Bibit Terong"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="1. Penanaman dengan Benar: Tanam bibit terong pada tanah yang subur, dengan kedalaman yang sesuai. Pastikan jarak tanam yang cukup antar bibit."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="2. Penyiraman yang Teratur: Lakukan penyiraman secara teratur, menjaga kelembaban tanah tetapi menghindari genangan air. Terong suka tanah yang agak lembab."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="3.Pemberian Pupuk: Berikan pupuk organik atau pupuk seimbang untuk memberikan nutrisi yang cukup. Pupuk kaya fosfor dan kalium dapat merangsang pembentukan buah. "
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="4. Penyulaman: Lindungi bibit dari terik matahari dengan menyulaminya atau memberikan naungan sebagian. Ini membantu mengurangi stres pada tanaman."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="5. Pemangkasan Tunas: Pemangkasan tunas samping dapat dilakukan untuk mempromosikan pertumbuhan utama dan distribusi energi tanaman yang optimal."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="6. Perlindungan dari Hama dan Penyakit: Pantau bibit secara rutin untuk tanda-tanda hama atau penyakit. Gunakan metode organik atau pestisida yang aman jika diperlukan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="7. Pemantauan Rutin: Perhatikan pertumbuhan tanaman secara berkala. Tanggapi perubahan dengan cepat dan berikan perawatan tambahan jika diperlukan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

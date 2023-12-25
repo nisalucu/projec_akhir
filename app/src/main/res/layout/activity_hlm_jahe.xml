@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hlm_jahe"
+    android:background="@drawable/bg1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/bibitjahe"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Bibit Jahe"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"/>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:paddingLeft="20dp"
+            android:text="Deskripsi"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:paddingLeft="20dp"
+        android:text=" Tempat yang ideal untuk penanaman bibit jahe adalah daerah beriklim tropis atau subtropis dengan suhu sekitar 20-30 derajat Celsius. Pilih lokasi yang mendapat sinar matahari parsial atau naungan sebagian, memiliki tanah yang kaya, subur, dan memiliki drainase yang baik. Jahe juga menyukai kelembaban tinggi, jadi pastikan ketersediaan air yang cukup. Hindari tempat yang terlalu terkena angin kencang. Dengan memperhatikan faktor-faktor ini, Anda dapat menciptakan lingkungan yang mendukung pertumbuhan bibit jahe yang optimal."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="Cara Perawatan Bibit Jahe"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="1. Penanaman: Tanamlah bibit jahe pada kedalaman yang tepat dan pastikan ada ruang yang cukup antara bibit. Jahe tumbuh baik dalam tanah yang kaya, gembur, dan memiliki drainase yang baik."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="2.Penyiraman: Jahe menyukai kelembaban tanah yang konsisten. Lakukan penyiraman secara teratur, terutama saat tanah terasa kering. Pastikan tanah tetap lembab, tetapi hindari genangan air. "
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="3. Pemupukan: Berikan pupuk organik atau pupuk seimbang pada bibit jahe setiap beberapa bulan untuk mendukung pertumbuhan vegetatif dan pembentukan rimpang yang sehat."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="4. Pembersihan Gulma: Jaga area sekitar bibit jahe tetap bersih dari gulma. Gulma dapat bersaing dengan jahe untuk nutrisi dan kelembaban tanah."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="5. Pemangkasan Tunas: Pemangkasan tunas dapat dilakukan untuk merangsang pertumbuhan tanaman yang lebih merimbun. Pemangkasan juga membantu menghilangkan tunas yang lemah atau rusak."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="6.Pemantauan Terhadap Hama dan Penyakit: Amati bibit jahe secara rutin untuk tanda-tanda serangan hama atau penyakit. Gunakan metode organik atau pestisida yang aman jika diperlukan. "
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:text="7. Pemeliharaan Tanah: Jaga tanah di sekitar bibit jahe dengan memberikan lapisan mulsa. Ini membantu menjaga kelembaban, mencegah pertumbuhan gulma, dan memberikan nutrisi tambahan."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

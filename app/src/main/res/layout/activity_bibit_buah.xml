@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".bibit_buah"
-    android:background="@drawable/macam_bibit">
+    android:background="@drawable/bibit_buah">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bibit Pepaya"
-            android:layout_marginTop="190dp"
+            android:layout_marginTop="185dp"
             android:layout_marginLeft="170dp"
             android:textSize="18dp"
             android:textStyle="bold"
@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bibit Pisang"
-            android:layout_marginTop="340dp"
+            android:layout_marginTop="350dp"
             android:layout_marginLeft="170dp"
             android:textSize="18dp"
             android:textStyle="bold"
@@ -37,23 +37,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Bibit Jeruk"
-            android:layout_marginTop="483dp"
+            android:layout_marginTop="510dp"
             android:layout_marginLeft="170dp"
             android:textSize="18dp"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:id="@+id/txt_jrk"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bibit Mangga"
-            android:layout_marginTop="623dp"
-            android:layout_marginLeft="170dp"
-            android:textSize="18dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:id="@+id/txt_mangga"/>
+
     </RelativeLayout>
 
 
